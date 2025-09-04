@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <base href="$FLUTTER_BASE_HREF">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Agricultural Platform">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Agricultural Platform">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+  
+  <!-- Google Sign-In Client ID -->
+  <meta name="google-signin-client_id" content="720969679338-8qfd8ktn8vptaa9j4or9mof0o8tffjh4.apps.googleusercontent.com">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Agricultural Platform</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- Firebase SDK v9+ (modular) -->
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.7.1/firebase-storage-compat.js"></script>
+  
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js';
+    import { getAuth } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-auth.js';
+    import { getFirestore } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js';
+    import { getStorage } from 'https://www.gstatic.com/firebasejs/10.7.1/firebase-storage.js';
+
+    // Your web app's Firebase configuration
+    const firebaseConfig = {
+      apiKey: "AIzaSyCqFjCV_9CZmYeIvcK9FVy4drmKUlSaIWY",
+      authDomain: "agricultural-platform-db3df.firebaseapp.com",
+      databaseURL: "https://agricultural-platform-db3df-default-rtdb.firebaseio.com",
+      projectId: "agricultural-platform-db3df",
+      storageBucket: "agricultural-platform-db3df.appspot.com",
+      messagingSenderId: "720969679338",
+      appId: "1:720969679338:web:d8a6652855a15ee48df293",
+      measurementId: "G-2LH6P9P9ZW"
+    };
+
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const auth = getAuth(app);
+    const db = getFirestore(app);
+    const storage = getStorage(app);
+
+    // Make them available globally for FlutterFire
+    window.firebaseApp = app;
+    window.firebaseAuth = auth;
+    window.firestore = db;
+    window.firebaseStorage = storage;
+  </script>
+</head>
+<body>
+  <script src="flutter_bootstrap.js" async></script>
+</body>
+</html>

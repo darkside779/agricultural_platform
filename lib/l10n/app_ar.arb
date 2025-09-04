@@ -1,0 +1,17 @@
+{
+  "@@locale": "ar",
+  "farmer": "مزارع",
+  "merchant": "تاجر",
+  "expert": "خبير",
+  "admin": "مدير",
+  "guest": "ضيف",
+  "researcher": "باحث",
+  "consultant": "مستشار",
+  "cooperativeManager": "مدير تعاونية",
+  "company": "شركة",
+  "posts": "المنشورات",
+  "followers": "المتابعون",
+  "following": "المتابَعون",
+  "message": "رسالة",
+  "follow": "متابعة"
+}

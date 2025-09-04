@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "720969679338",
+    "firebase_url": "https://agricultural-platform-db3df-default-rtdb.firebaseio.com",
+    "project_id": "agricultural-platform-db3df",
+    "storage_bucket": "agricultural-platform-db3df.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720969679338:android:d513360859537ad48df293",
+        "android_client_info": {
+          "package_name": "com.example.agricultural_platform"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720969679338-8qfd8ktn8vptaa9j4or9mof0o8tffjh4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAs5G-nX9ZFKNYe3oe0H61gzKUeIWMh6y8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720969679338-8qfd8ktn8vptaa9j4or9mof0o8tffjh4.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "720969679338-u48d05k2l36d6ad1n6k9pfnvb9vmkfjh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.agriculturalPlatform"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
